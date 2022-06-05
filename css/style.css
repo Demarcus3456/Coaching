@@ -107,7 +107,7 @@ header .sticky .logo header .sticky ul li a {
 
 /* Blogs & Tweets */
 
-.container {
+.container-blog {
     background-color: #B590CA;
 }
 
@@ -206,6 +206,35 @@ header .sticky .logo header .sticky ul li a {
     transition: all ease 0.3s;
 }
 
+/* Tweets */
+
+.container-2 {
+    background-color: #A8D3DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tracker */
+
+.container-3 {
+    background-color: #F5CAB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Contact */
+
+
+
+
+
+
+
+
+
 @media(max-width:1250px) {
     .blog-box {
         width: 300px;
@@ -229,23 +258,9 @@ header .sticky .logo header .sticky ul li a {
     }
 }
 
-/* Tweets */
-
-.container-2 {
-    background-color: #A8D3DA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media screen and (max-width: 600px) {
+    body {
+        width: auto;
+        height: auto;
+    }
 }
-
-/* Tracker */
-
-.container-3 {
-    background-color: #F5CAB3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/* Contact */
